@@ -20,10 +20,10 @@ public class config {
     public static Twitter getTwitter(){
         configurationBuilder = new ConfigurationBuilder();
         configurationBuilder.setDebugEnabled(true)
-                .setOAuthConsumerKey("fK2ESbUFv6Un2pTqyVJKZHNxa")
-                .setOAuthConsumerSecret("In9feQczHzRzOoOTVk2EwobBB0pQKD9rkqTya07wQL9dcHrmu7")
-                .setOAuthAccessToken("969892374619963392-mUIdWWXrUTKAphKVsrZyUZBbtyAkac7")
-                .setOAuthAccessTokenSecret("mPdEKXjAWWVGxllrzJLrGIb10SNbvhZd3Kgb92tZ0wkMj");
+                .setOAuthConsumerKey("consumer_key") // to be replaced 
+                .setOAuthConsumerSecret("secret_key") // to be replaced 
+                .setOAuthAccessToken("access_token") // to be replaced 
+                .setOAuthAccessTokenSecret("access_secret_token"); // to be replaced 
         tf = new TwitterFactory(configurationBuilder.build());
         twitter = tf.getInstance();
         return twitter;
