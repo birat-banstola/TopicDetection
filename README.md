@@ -1,7 +1,9 @@
 # TopicDetection
 
-This system would help to indentify a hot topic or a trending topic in news media 
+This system would help to identify a hot topic or a trending topic in news media 
 like twitter.
+
+
 
 Considering the massive amounts of Twitter users and the 
 impressive number of tweets generated we monitor a random sample 
